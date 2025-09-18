@@ -13,8 +13,8 @@
       crossorigin="anonymous"
     />
 
-    <!-- Optional: your site CSS -->
-    <link rel="stylesheet" href="../resources/css/style.css" />
+    <!-- Your site CSS (root-relative) -->
+    <link rel="stylesheet" href="/resources/css/style.css" />
   </head>
   <body>
     <!-- Dynamic navbar placeholder -->
@@ -37,7 +37,7 @@
             <div class="col">
               <div class="card shadow-sm">
                 <img 
-                  src="../resources/img/running.jpg" 
+                  src="/resources/img/running.jpg" 
                   class="card-img-top" 
                   alt="Running hobby image"
                   style="height: 225px; object-fit: cover;"
@@ -55,7 +55,7 @@
             <div class="col">
               <div class="card shadow-sm">
                 <img 
-                  src="../resources/img/movies.jpg" 
+                  src="/resources/img/movies.jpg" 
                   class="card-img-top" 
                   alt="Movies hobby image"
                   style="height: 225px; object-fit: cover;"
@@ -73,7 +73,7 @@
             <div class="col">
               <div class="card shadow-sm">
                 <img 
-                  src="../resources/img/jeter.png" 
+                  src="/resources/img/jeter.png" 
                   class="card-img-top" 
                   alt="Derek Jeter athlete image"
                   style="height: 225px; object-fit: cover;"
@@ -91,7 +91,7 @@
             <div class="col">
               <div class="card shadow-sm">
                 <img 
-                  src="../resources/img/jayden.jpg" 
+                  src="/resources/img/jayden.jpg" 
                   class="card-img-top" 
                   alt="Jayden Daniels athlete image"
                   style="height: 225px; object-fit: cover;"
@@ -117,10 +117,8 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Load Navbar Dynamically -->
-    <script src="../resources/js/navbar.js"></script>
-    <script>
-      loadNavbar(); // Call the function to load the navbar
-    </script>
+    <!-- Load Navbar Dynamically (root-relative) -->
+    <script src="/resources/js/navbar.js"></script>
+    <script>loadNavbar();</script>
   </body>
 </html>
